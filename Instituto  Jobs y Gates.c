@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h> //libreria para poder usar cadenas de texto
 #include <time.h>
-#include <conio.h>
 
 int main(int argc, char *argv[]) {
 	
@@ -66,7 +65,7 @@ printf("||======================================================================
  for(i=1;i<8;i++)
  	 {
 
-		for(j=1;j<4;j++)
+		for(j=1;j<5;j++)
 		 {	
 			numero = atoi(institutos[i][j]);
 			if(numeroMayor<numero)
@@ -84,7 +83,7 @@ printf("||======================================================================
 		}
 	}
  printf("La mayor cantidad de personas es de %i en %s del sector %s\n", numeroMayor, institutos[iMayor][0], institutos[0][jMayor]);
- printf("La mayor cantidad de personas es de %i en %s del sector %s\n", numeroMenor, institutos[iMenor][0], institutos[0][jMenor]);
+ printf("La menor cantidad de personas es de %i en %s del sector %s\n", numeroMenor, institutos[iMenor][0], institutos[0][jMenor]);
  printf("||=============================================================================||\n");
  
 //Ejercicio 4 El total de cada una de las categorías de una sede seleccionada///////////////////////////////////////////////////////////////////// 
