@@ -74,31 +74,31 @@ printf("////////////////////////////////////////////////////////////////////////
 	switch(numeroSede){
 		case 1:
 		 	printf("%s\n", sedes[0]);
-	 		for(i=0;i<5;i++){
+	 		for(i=0;i<4;i++){
 				printf("    %s: %i\n", sectores[i], matrizPersonas[0][i]);};break;
 	 	case 2:
 		 	printf("%s\n", sedes[1]);
-	 		for(i=0;i<5;i++){
+	 		for(i=0;i<4;i++){
 				printf("    %s: %i\n", sectores[i], matrizPersonas[1][i]);};break;
 	 	case 3:
 		 	printf("%s\n", sedes[2]);
-	 		for(i=0;i<5;i++){
-				printf("%s: %i\n", sectores[i], matrizPersonas[2][i]);};break;
+	 		for(i=0;i<4;i++){
+				printf("    %s: %i\n", sectores[i], matrizPersonas[2][i]);};break;
 	 	case 4:
 		 	printf("%s\n", sedes[3]);
-	 		for(i=0;i<5;i++){
+	 		for(i=0;i<4;i++){
 				printf("    %s: %i\n", sectores[i], matrizPersonas[3][i]);};break;
 	 	case 5:
 		 	printf("%s\n", sedes[4]);
-	 		for(i=0;i<5;i++){
+	 		for(i=0;i<4;i++){
 				printf("    %s: %i\n", sectores[i], matrizPersonas[4][i]);};break;
 	 	case 6:
 		 	printf("%s\n", sedes[5]);
-	 		for(i=0;i<5;i++){
+	 		for(i=0;i<4;i++){
 				printf("    %s: %i\n", sectores[i], matrizPersonas[5][i]);};break;
 	 	case 7:
 		 	printf("%s\n", sedes[6]);
-	 		for(i=0;i<5;i++){
+	 		for(i=0;i<4;i++){
 				printf("    %s: %i\n", sectores[i], matrizPersonas[6][i]);};break;
 	 	default: 
 		 	printf("Eror numero incorrecto\n");}
@@ -109,7 +109,7 @@ printf("////////////////////////////////////////////////////////////////////////
 //Ejercicio 5 El total de estudiantes de todas las sedes////////////////////////////////////////////////////
  printf("5)Total de estudiantes de todas las sedes\n");
  suma = 0;
- for(i=1;i<8;i++){
+ for(i=0;i<7;i++){
  	suma += matrizPersonas[i][0];}
  printf("Total de estudiantes:: %i\n", suma);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
